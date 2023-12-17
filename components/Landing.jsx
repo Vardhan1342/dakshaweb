@@ -3,9 +3,9 @@ import React from "react";
 
 const Landing = () => {
   return (
-    <div className="relative min-h-screen">
+    <div className="relative">
 
-      <div className="absolute -z-10 inset-0">
+      <div className="-z-10 inset-0">
         <video autoPlay muted loop className="object-cover">
           <source src="/Daksha.mp4" />
         </video>
@@ -17,7 +17,7 @@ const Landing = () => {
         </h1>
       </div> */}
 
-      <div className="flex flex-col space-y-2 md:space-y-10 w-full justify-center items-center absolute top-[14rem]  md:top-[20rem] lg:top-[45rem]">
+      <div className="flex flex-col space-y-2 md:space-y-5 w-full justify-center items-center absolute  lg:top-[45rem]">
         <h1 className="text-white sm:text-2xl "> March 2024</h1>
        
         <div className="flex gap-4 w-5 h-5 md:w-full md:h-full justify-center">
